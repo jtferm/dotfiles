@@ -1,0 +1,9 @@
+Create soft-links from your home directory to the files/directories in the git
+repository. E.g:
+
+  ln -s ~/git/dotfiles/.vimrc ~/.vimrc
+
+Someday I might make a script to do all of that automatically, but today is not
+that day.
+
+The .wgetrc is just a shell to remind me what's necessary to wget behind a proxy
