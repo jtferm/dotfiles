@@ -6,7 +6,7 @@ set t_Co=256
 colorscheme kolor
 "colorscheme zenburn
 
-highlight LineNr ctermfg=blue
+"highlight LineNr ctermfg=blue
 highlight OverLength ctermfg=DarkRed
 match OverLength /\%81v.\+/
 
@@ -16,6 +16,7 @@ set showmatch
 set cul
 set laststatus=2
 set number
+set hls
 
 set autoindent
 set tabstop=2
@@ -29,7 +30,6 @@ set smartcase
 set listchars=tab:>\ ,trail:~
 set list
 
-nore ; :
 nore <C-j> :bprev
 nore <C-k> :bnext
 
